@@ -7,7 +7,7 @@ body{
   flex-direction: column;
 }
 header {
-  position: fixed;
+  /* position: fixed; */
   
   display: inline-block;
   background: linear-gradient(0deg, rgba(31,43,161,1) 0%, rgba(77,1,113,0.7777485994397759) 100%);
