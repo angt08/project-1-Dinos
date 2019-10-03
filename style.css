@@ -6,6 +6,7 @@ body{
   background:url("https://i.imgur.com/xYixvl6h.png");
   font-family: 'Oswald', sans-serif;
   background-size:cover;
+  
   width:100%;
 }
 #title{
@@ -47,7 +48,7 @@ header {
   text-align:center;
   border-radius: 5%;
   color:white;
-  font-size:14px;
+  font-size:16px;
  
 }
 #quote-content{
@@ -111,20 +112,16 @@ main{
     border-left-style: solid;
 }
 
-footer{
+footer small{
+  display: inline-block;
   width:100%;
-  
-  /* background: linear-gradient(0deg, rgba(77,1,113,0.7777485994397759) 0%, rgba(31,43,161,1) 100%); */
-  
-}
-small{
-  margin-top:40px;
-  display: block;
-  margin-top:40px;
   text-align: center;
-  color:white;
+  margin-top:85px;
   
+  color:white;
 }
+
+  
 
 @media only screen 
   and (min-device-width: 375px) 

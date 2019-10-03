@@ -1,15 +1,25 @@
 body{
   display:flex;
+  margin:0 auto;
   justify-content: center;
   background:url("https://i.imgur.com/PsA22oK.jpg");
   background-color: black;
   flex-direction: column;
 }
+header {
+  /* position: fixed; */
+  background: linear-gradient(0deg, rgba(31,43,161,1) 0%, rgba(77,1,113,0.7777485994397759) 100%);
+  display: inline-block;
+  height:150px;
+  opacity:0.8;
+  width:100%;
+ 
+ }
 #title{
   font-family: 'Libre Baskerville', serif;
   position: fixed;
  
-  margin-left:10%;
+  margin-left:9%;
   font-size:40px;
   color:rgb(255, 255, 255);
 }
@@ -18,32 +28,16 @@ body{
   color:white; 
   position: fixed;
   text-decoration:none;
-  margin-top:60px;
+  margin-top:65px;
   margin-left:10%;
 }
-/* #home-icon{
-  font-size: 60px;
-  color:white; 
-  position: fixed;
-  text-decoration:none;
-  text-align: left;
-  margin-left:10%;
-  margin-top:7%;
- 
-} */
 
 
-header {
-  background: linear-gradient(0deg, rgba(31,43,161,1) 0%, rgba(77,1,113,0.7777485994397759) 100%);
-  display: inline-block;
-  height:150px;
-  opacity:0.8;
-  width:100%;
- 
- }
+
+
  
 main{
-  margin-top:10%; 
+  margin-top:50px;; 
   margin-left:10%;
   opacity: 0.9; 
   background-color:white;
@@ -51,30 +45,25 @@ main{
   border-right-style: solid;
   border-left-color: blue;
   border-left-style: solid;
-  width:80%;
+  width:50%;
   display:flex;
-  align-items: center; 
+  justify-content: space-around;
   flex-direction: column;
-  
+  min-width:650px;
 }
 /* 
 .book-divs{
  
 } */
-small{
-  display: block;
- margin-top:40px;
-  text-align: center;
-  color:white;
-  
-}
- footer{
+footer small{
+  display: inline-block;
   width:100%;
-  opacity:0.8;
-  min-height:80px;
-  /* background: linear-gradient(0deg, rgba(77,1,113,0.7777485994397759) 0%, rgba(31,43,161,1) 100%); */
+  text-align: center;
+  margin-top:85px;
   
+  color:white;
 }
+
 
 @media only screen 
   and (min-device-width: 375px) 
