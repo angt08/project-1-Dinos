@@ -42,7 +42,7 @@ header {
 
 #generate-quote-button{
   margin-top:20px;
-  width:10%;
+  width:5%;
   margin-left:25%;
   background: linear-gradient(0deg, rgba(77,1,113,0.7777485994397759) 0%, rgba(31,43,161,1) 100%);
   text-align:center;
@@ -65,7 +65,7 @@ header {
   border-right-style: solid;
   border-left-color: blue;
   border-left-style: solid;
-  
+  min-width:350;
 }
 
 #display-author{

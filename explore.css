@@ -34,25 +34,28 @@ header {
   margin-left:10%;
 }
 
-main {
+div{
   display: inline-block;
   margin-top:50px;; 
   margin-left:15%;
   opacity: 0.9; 
+  width:60%;
+  display:flex;
+  width:50%;
+  /* justify-content: space-evenly;  */
+  flex-direction:row;
+  min-width:650px;
+}
+#book-section{
+  
   background-color:white;
   border-right-color: blue;
   border-right-style: solid;
   border-left-color: blue;
   border-left-style: solid;
-  width:70%;
-  display:flex;
-  align-items: center;
-  justify-content: space-between; 
-  flex-direction: column;
-  min-width:650px;
 }
 img{
-  
+
   margin-left:20px;
   margin-top:20px;
 
