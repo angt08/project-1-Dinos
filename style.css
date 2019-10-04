@@ -41,10 +41,10 @@ header {
 }
 
 #generate-quote-button{
-  margin-top: auto;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  width:5%;
+  
   text-align:center;
   border-radius: 5%;
   color:white;
@@ -75,7 +75,7 @@ header {
 color:rgb(10, 1, 10);
 font-size:20px;
 margin-top:10px;
-text-align:center;
+text-align:left;
 width:40%;
 margin-left:auto;
 margin-right: auto;
@@ -83,23 +83,25 @@ margin-right: auto;
 #display-quote{
 color:purple;
 font-size:18px;
-text-align:center;
+text-align:left;
 width:40%;
 margin-top:30px;
 margin-left:30%;
 
 }
 h2{
+  
+  margin-left:10px;
   color:rgb(90, 43, 199);
   font-size:18px;
-  text-align:center; 
+  text-align:left; 
 }
 a{
   color:purple;
   font-size:18px;
   display:flex; 
   flex-direction: column;
-  margin-left:10%;
+  margin-left:8px;
   text-align:left; 
   text-decoration:none;
 }
@@ -107,8 +109,8 @@ a{
 #links{
   margin-top:20px;
   margin-right: auto;
-  margin-left:auto;
-  text-align:center;
+  margin-left: auto;
+  text-align:left;
   background-color:white;
   width: 40%; 
   border-right-color: blue;
@@ -135,15 +137,18 @@ footer small{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-    #quote-content{
+    
+
+    #quotes-div{
 
       margin-top:180px;
       display:flex;
       align-items: baseline;
       flex-direction:column;
       width:40%;
-      margin-left:10%;
-      min-width:400px;
+      margin-right:auto;
+      margin-left:auto;
+      max-width:400px;
       min-height:150px;
     }
 }
@@ -154,5 +159,7 @@ footer small{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+
+
 
 }
