@@ -24,3 +24,16 @@ will provide motivational quotes from women all over the world.
 ## stretch goals:
 a sign up to a daily motivational inspirational quote
 an option for sign up where users can create quote snippets they can share on social media platforms.
+
+##Problem-solving approach:
+I used good / css tricks for most of the small issues I've had. also reached out to peers and TA for help
+
+##Struggles you encountered and how you solved them:
+It took most of the first full day figuring out how to properly display the quotes at random using the button click.
+
+##Problems you weren’t able to solve:
+deciding what else to do with the site aesthetically after calling the first API, It turned into a tedious ,boring project/task.
+
+##Code that you are proud of:
+I am proud of the Javascript part of my project, as APIs are so tricky and extracting data from them was challenging for me. But I was able to figure something out with the help of peers, and then some on my own.which was awesome.
+
