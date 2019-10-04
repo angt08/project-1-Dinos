@@ -54,6 +54,7 @@ div{
   border-left-color: #2B3A67;
   border-left-style: solid;
   width: auto;
+  min-width: 300px;
 }
 img{
  overflow: hidden;
