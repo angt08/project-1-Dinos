@@ -4,27 +4,28 @@ body{
   display: flex;
   flex-direction:column ;
   background:url("https://i.imgur.com/xYixvl6h.png");
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Saira', sans-serif;
   background-size:cover;
   
   width:100%;
 }
 #title{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Saira', sans-serif;
   position: fixed;
   margin-left:10%;
   font-size:40px;
-  color:rgb(255, 255, 255);
+  color:#FF8100;
   
 }
 p{
   text-align:left;
   margin-left:10%;
-  color:rgb(23, 29, 59);
+  color:rgb(24, 32, 56);
 }
 #home-icon{
   font-size: 60px;
-  color:white; 
+  color:#FF8100; 
   position: fixed;
   text-decoration:none;
   margin-top:60px;
@@ -32,7 +33,7 @@ p{
 }
 header {
  position: fixed;
- background: linear-gradient(0deg, rgba(31,43,161,1) 0%, rgba(77,1,113,0.7777485994397759) 100%);
+ background-color:#2B3A67;
  display: inline-block;
  height:150px;
  opacity:0.8;
@@ -44,12 +45,11 @@ header {
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  
+  background-color:#2B3A67;
   text-align:center;
   border-radius: 5%;
   color:white;
   font-size:16px;
-  background: linear-gradient(0deg, rgba(77,1,113,0.7777485994397759) 0%, rgba(31,43,161,1) 100%);
 
 }
 #quotes-div{
@@ -62,9 +62,9 @@ header {
   margin-right:auto;
   margin-left:auto;
   background-color:white;
-  border-right-color: blue;
+  border-right-color:#2B3A67;
   border-right-style: solid;
-  border-left-color: blue;
+  border-left-color: #2B3A67;
   border-left-style: solid;
   min-width:400px;
   min-height:150px;
@@ -72,7 +72,7 @@ header {
 
 #display-author{
 
-color:rgb(10, 1, 10);
+color:#FF8100;
 font-size:20px;
 margin-top:10px;
 text-align:left;
@@ -81,7 +81,7 @@ margin-left:auto;
 margin-right: auto;
 }
 #display-quote{
-color:purple;
+color:#001B2D;
 font-size:18px;
 text-align:left;
 width:40%;
@@ -90,14 +90,14 @@ margin-left:30%;
 
 }
 h2{
-  
+
   margin-left:10px;
-  color:rgb(90, 43, 199);
+  color:rgb(24, 32, 56);
   font-size:18px;
   text-align:left; 
 }
 a{
-  color:purple;
+  color:#FF8100;
   font-size:18px;
   display:flex; 
   flex-direction: column;
@@ -113,9 +113,9 @@ a{
   text-align:left;
   background-color:white;
   width: 40%; 
-  border-right-color: blue;
+  border-right-color:#2B3A67 ;
   border-right-style: solid;
-  border-left-color: blue;
+  border-left-color:#2B3A67;
   border-left-style: solid;
   min-width:400px;
   min-height:150px;
@@ -126,8 +126,7 @@ footer small{
   width:100%;
   text-align: center;
   margin-top:85px;
-  
-  color:white;
+  color:#001B2D;
 }
 
   
