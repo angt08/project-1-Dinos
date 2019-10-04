@@ -31,6 +31,7 @@ p{
   margin-top:60px;
   margin-left:10%;
 }
+
 header {
  position: fixed;
  background-color:#2B3A67;
@@ -50,10 +51,12 @@ header {
   border-radius: 5%;
   color:white;
   font-size:16px;
+}
+#generate-quote-button:hover{
+  background-color:#FF8100;
 
 }
 #quotes-div{
-
   margin-top:180px;
   display:flex;
   align-items: baseline;
