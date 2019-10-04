@@ -9,15 +9,6 @@ body{
   background-color: black;
   flex-direction: column;
 }
-header {
- 
-  background-color:#2B3A67;
-  display: inline-block;
-  height:150px;
-  opacity:0.8;
-  width:100%;
- 
- }
 #title{
   margin-top:0 auto;
   font-family: 'Saira', sans-serif;
@@ -35,8 +26,21 @@ header {
   margin-left:10%;
 }
 
-div{
+#home-icon:hover {
+  color:#001B2D;
+}
+header {
  
+  background-color:#2B3A67;
+  display: inline-block;
+  height:150px;
+  opacity:0.8;
+  width:100%;
+ 
+ }
+
+
+div{
   margin-top:50px;
   margin-left:auto;
   margin-right:auto;
