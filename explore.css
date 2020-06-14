@@ -1,87 +1,84 @@
-body{
-  display:flex;
-  width:100%;
-  height:100%;
-  margin:0 auto;
-  justify-content: center;
+html, body{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
   background:url("https://i.imgur.com/PsA22oK.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
   font-family: 'Assistant', sans-serif;
-  background-color: black;
-  flex-direction: column;
+  font-family: 'Saira', sans-serif;
+  height:100vh;
+  overflow-x: hidden;
+
 }
 #title{
-  margin-top:0 auto;
   font-family: 'Saira', sans-serif;
   position: absolute;
-  margin-left:9%;
-  font-size:40px;
-  color:#FF8100;
-}
-#home-icon{
-  font-size: 60px;
-  color:#FF8100;
-  position: absolute;
-  text-decoration:none;
-  margin-top:65px;
   margin-left:10%;
+  font-size:3em;
+  color:#FF8100;
+  
 }
 
+#home-icon{
+  font-size: 2em;
+  color:#FF8100; 
+  /* position: fixed; */
+  text-decoration:none;
+
+}
 #home-icon:hover {
   color:#001B2D;
 }
-header {
- 
-  background-color:#2B3A67;
+.nav{
   display: inline-block;
-  height:150px;
-  opacity:0.8;
-  width:100%;
- 
- }
-
-
-div{
-  margin-top:50px;
-  margin-left:auto;
-  margin-right:auto;
-  opacity: 0.9; 
-  width:auto;
-  display:flex;
-  justify-content: space-evenly; 
-  max-width:650px;
-  min-width:350px;
+  padding:1em;
+  font-size: 1em;
 }
+
+header {
+  top:0;
+  display: flex;
+  justify-content: center;
+   background-color:rgba(43, 58, 103, 0.797);
+   height:5em;
+   width:100%;
+   margin-bottom: 2em;
+  }
+
+
+
 #book-section{
-  margin-left:auto;
-  margin-top:auto;
-  flex-direction: column;
-  background-color:white;
-  border-right-color:#2B3A67;
-  border-right-style: solid;
-  border-left-color: #2B3A67;
-  border-left-style: solid;
-  width: auto;
-  min-width: 300px;
+  margin:0 auto;
+  width: 80%;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: space-evenly;
+  padding:2em 2em 2em 2em;
+  background-color: rgba(245, 245, 245, 0.31);
 }
 img{
- overflow: hidden;
-  margin-left:auto;
-  margin-top:auto;
-  width: auto;
-  min-width: 150px;
+width: 30em;
+height: 20em;
+object-fit: contain;
 }
+
 img:hover{
 -webkit-transform: scale(0.8);
 -ms-transform: scale(0.8);
 transform: scale(0.8);
 }
 
+
 footer small{
+  height: 3em;
   display: inline-block;
-  width:100%;
+  width: 100%;
   text-align: center;
-  margin-top:85px;
-  color:#001B2D;
+  margin-top: 30%;
+  color: white;
 }
 
 

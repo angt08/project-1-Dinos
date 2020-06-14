@@ -6,6 +6,7 @@ const button = document.querySelector('#generate-quote-button')
 const displayAuthor = document.querySelector('#display-author')
 const displayQuote = document.querySelector('#display-quote')
 
+
 button.addEventListener('click', async () => {
   const response = await axios.get(`${url}`);
   let renderedQuote = response.data.quotes[0].body;
